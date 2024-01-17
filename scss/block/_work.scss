@@ -50,10 +50,18 @@
 }
 .work__item:nth-child(2) {
 	flex-direction: row-reverse;
+	margin-left: 16px;
+
+	& > img {
+		margin-left: 16px;
+	}
 }
 
 .work__item:nth-child(3) {
 	flex-direction: row-reverse;
+	& > img {
+		margin-left: 16px;
+	}
 }
 .collab__subtext {
 	position: relative;
@@ -117,5 +125,20 @@
 	}
 	.work__list {
 		width: 100%;
+	}
+}
+
+@media (max-width: 470px) {
+	.work__item > img {
+		width: 88px;
+		height: 88px;
+	}
+	.work__item {
+		text-align: center;
+	}
+
+	.subtextnth1::before,
+	.subtextnth::before {
+		display: none;
 	}
 }
