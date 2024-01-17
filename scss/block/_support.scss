@@ -1,0 +1,118 @@
+.support-section {
+	padding-top: 150px;
+}
+.support {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.support__content {
+	display: flex;
+	flex-direction: column;
+	width: 486px;
+}
+.support__title {
+	color: var(--textColor);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 23px;
+}
+
+.support__title span {
+	font-size: 32px;
+	font-weight: 700;
+}
+.support__text {
+	color: var(--textColor);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	margin-bottom: 30px;
+}
+.support__list {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.support__item {
+	position: relative;
+	padding-left: 65px;
+	color: var(--textColor);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+}
+.support__item1::before {
+	z-index: 1;
+	position: absolute;
+	content: "";
+	width: 35px;
+	height: 35px;
+	background-image: url(../../images/header/support/icon1.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+.support__item2::before {
+	z-index: 1;
+	position: absolute;
+	content: "";
+	width: 35px;
+	height: 35px;
+	background-image: url(../../images/header/support/icon2.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+.support__item3::before {
+	z-index: 1;
+	position: absolute;
+	content: "";
+	width: 35px;
+	height: 35px;
+	background-image: url(../../images/header/support/icon3.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+
+@media (max-width: 1087px) {
+	.support__content {
+		width: 100%;
+	}
+}
+
+@media (max-width: 950px) {
+	.support {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.support__content {
+		margin-top: 50px;
+	}
+}
+@media (max-width: 650px) {
+	.support-section {
+		padding-top: 97px;
+	}
+	.support__title {
+		margin-bottom: 15px;
+	}
+	.support__list {
+		gap: 15px;
+	}
+}

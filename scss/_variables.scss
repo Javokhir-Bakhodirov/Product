@@ -1,0 +1,24 @@
+:root {
+	--textColor: #22343d;
+	--fixed: #fff;
+	--bg: #ebebeb;
+}
+
+.mode {
+	background-color: #1f2e35;
+	--textColor: #fff;
+	--fixed: #1f2e35;
+	--bg: #172226;
+}
+
+.show {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
+
+.deg {
+	transform: rotate(180deg);
+}

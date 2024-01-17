@@ -1,0 +1,137 @@
+.price__section {
+	padding-top: 150px;
+}
+
+.price {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.price__title {
+	color: var(--textColor);
+	font-size: 34px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.price__text {
+	color: var(--textColor);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-bottom: 50px;
+}
+.price__list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.price__item {
+	width: 355px;
+	border-radius: 8px;
+	background: #fff;
+	box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+	padding: 24px 75px 32px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+
+	&:hover {
+		background-color: #02897a;
+	}
+
+	&:hover > h3 {
+		color: #fff;
+	}
+	&:hover > p {
+		color: #fff;
+	}
+	&:hover > p > sup,
+	&:hover > p > span,
+	&:hover > .item__list > li {
+		color: #fff;
+	}
+
+	&:hover > a {
+		background-color: #fff;
+		color: #02897a;
+	}
+}
+.price__item-title {
+	color: #22343d;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 40px;
+	margin-bottom: 8px;
+}
+.price__item-text {
+	color: #22343d;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 40px;
+}
+.class__item-cost {
+	margin-bottom: 16px;
+	color: #02897a;
+	text-align: center;
+	font-size: 76px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 100px;
+	letter-spacing: 0.2px;
+}
+.class__item-cost > sup {
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0.1px;
+}
+.class__item-cost > span {
+	color: #afafaf;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0.1px;
+}
+.item__list {
+	gap: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.item__free {
+	color: #22343d;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 22px;
+	letter-spacing: 0.2px;
+}
+.price__link {
+	margin-top: 49px;
+	width: 139px;
+	padding: 11px 19px 11px 18px;
+	color: #fff;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	border-radius: 8px;
+	background: #02897a;
+	border: 1px solid #fff;
+}
+
+@media (max-width: 1130px) {
+	.price__list {
+		flex-direction: column;
+		gap: 35px;
+	}
+}
