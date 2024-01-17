@@ -61,6 +61,11 @@
 	text-decoration-line: underline;
 	align-items: center;
 	text-decoration: underline;
+	gap: 8px;
+	transition: all 0.3s ease;
+	&:hover {
+		color: var(--textColor);
+	}
 }
 
 @media (max-width: 1099px) {

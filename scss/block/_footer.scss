@@ -86,7 +86,7 @@ input {
 
 	&:hover {
 		background-color: transparent;
-		color: #02897a;
+		color: var(--textColor);
 		border-color: #02897a;
 	}
 }

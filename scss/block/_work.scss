@@ -112,6 +112,7 @@
 	border-radius: 4px;
 	background: #02897a;
 	border: 2px solid #02897a;
+	transition: all 0.3s ease;
 
 	&:hover {
 		color: var(--textColor);

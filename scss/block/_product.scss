@@ -66,6 +66,7 @@
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
+	transition: all 0.3s ease;
 	&:hover {
 		color: var(--textColor);
 		background-color: transparent;
